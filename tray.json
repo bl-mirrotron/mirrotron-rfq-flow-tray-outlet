@@ -1,8 +1,8 @@
 {
-  "type": "rfq-temp",
+  "type": "rfq-flow",
   "name": "01",
   "arcPeriod": 60000,
-  "timeStamp": 1649328117627,
+  "timeStamp": 1649355742249,
   "interval": {
     "action": "setting",
     "type": "scalar",
@@ -26,7 +26,7 @@
   "watchdog": {
     "action": "reading",
     "type": "scalar",
-    "value": 10024,
+    "value": 110,
     "unit": "unit",
     "alarm": {
       "value": 0,
@@ -43,18 +43,18 @@
       }
     }
   },
-  "temp1": {
+  "rate": {
     "action": "reading",
     "type": "scalar",
-    "value": 0,
-    "unit": "C",
+    "value": 8125,
+    "unit": "Hz",
     "alarm": {
       "value": 0,
       "limits": {
-        "lolo": -101,
-        "low": -100,
-        "high": 100,
-        "hihi": 101
+        "lolo": -1,
+        "low": 0,
+        "high": 40000,
+        "hihi": 50000
       },
       "notify": {
         "name": "",
@@ -63,18 +63,18 @@
       }
     }
   },
-  "temp2": {
+  "flow1": {
     "action": "reading",
     "type": "scalar",
-    "value": 22.3,
-    "unit": "C",
+    "value": 1,
+    "unit": "unit",
     "alarm": {
       "value": 0,
       "limits": {
-        "lolo": -101,
-        "low": -100,
-        "high": 100,
-        "hihi": 101
+        "lolo": -1,
+        "low": -1,
+        "high": 1024,
+        "hihi": 1024
       },
       "notify": {
         "name": "",
@@ -83,18 +83,18 @@
       }
     }
   },
-  "temp3": {
+  "flow2": {
     "action": "reading",
     "type": "scalar",
-    "value": 23.4,
-    "unit": "C",
+    "value": 1,
+    "unit": "unit",
     "alarm": {
       "value": 0,
       "limits": {
-        "lolo": -101,
-        "low": -100,
-        "high": 100,
-        "hihi": 101
+        "lolo": -1,
+        "low": -1,
+        "high": 1024,
+        "hihi": 1024
       },
       "notify": {
         "name": "",
@@ -103,18 +103,18 @@
       }
     }
   },
-  "temp4": {
+  "flow3": {
     "action": "reading",
     "type": "scalar",
-    "value": 22.5,
-    "unit": "C",
+    "value": 1,
+    "unit": "unit",
     "alarm": {
       "value": 0,
       "limits": {
-        "lolo": -101,
-        "low": -100,
-        "high": 100,
-        "hihi": 101
+        "lolo": -1,
+        "low": -1,
+        "high": 1024,
+        "hihi": 1024
       },
       "notify": {
         "name": "",
@@ -123,18 +123,18 @@
       }
     }
   },
-  "temp5": {
+  "flow4": {
     "action": "reading",
     "type": "scalar",
-    "value": 0,
-    "unit": "C",
+    "value": 1,
+    "unit": "unit",
     "alarm": {
       "value": 0,
       "limits": {
-        "lolo": -101,
-        "low": -100,
-        "high": 100,
-        "hihi": 101
+        "lolo": -1,
+        "low": -1,
+        "high": 1024,
+        "hihi": 1024
       },
       "notify": {
         "name": "",
@@ -143,18 +143,18 @@
       }
     }
   },
-  "temp6": {
+  "flow5": {
     "action": "reading",
     "type": "scalar",
-    "value": 0,
-    "unit": "C",
+    "value": 1,
+    "unit": "unit",
     "alarm": {
       "value": 0,
       "limits": {
-        "lolo": -101,
-        "low": -100,
-        "high": 100,
-        "hihi": 101
+        "lolo": -1,
+        "low": -1,
+        "high": 1024,
+        "hihi": 1024
       },
       "notify": {
         "name": "",
@@ -163,18 +163,18 @@
       }
     }
   },
-  "temp7": {
+  "flow6": {
     "action": "reading",
     "type": "scalar",
-    "value": 0,
-    "unit": "C",
+    "value": 1,
+    "unit": "unit",
     "alarm": {
       "value": 0,
       "limits": {
-        "lolo": -101,
-        "low": -100,
-        "high": 100,
-        "hihi": 101
+        "lolo": -1,
+        "low": -1,
+        "high": 1024,
+        "hihi": 1024
       },
       "notify": {
         "name": "",
@@ -183,18 +183,38 @@
       }
     }
   },
-  "temp8": {
+  "flow7": {
     "action": "reading",
     "type": "scalar",
-    "value": 22.2,
-    "unit": "C",
+    "value": 1,
+    "unit": "unit",
     "alarm": {
       "value": 0,
       "limits": {
-        "lolo": -101,
-        "low": -100,
-        "high": 100,
-        "hihi": 101
+        "lolo": -1,
+        "low": -1,
+        "high": 1024,
+        "hihi": 1024
+      },
+      "notify": {
+        "name": "",
+        "number": "",
+        "time": 0
+      }
+    }
+  },
+  "flow8": {
+    "action": "reading",
+    "type": "scalar",
+    "value": 1,
+    "unit": "unit",
+    "alarm": {
+      "value": 0,
+      "limits": {
+        "lolo": -1,
+        "low": -1,
+        "high": 1024,
+        "hihi": 1024
       },
       "notify": {
         "name": "",
