@@ -6,7 +6,7 @@ MQTTSERVERIP=something.cloudmqtt.com
 MQTTUSERNAME=xxxx  
 MQTTPASSWORD=yyyy  
 SERIALPORT=/dev/serial0  
-SERIALBUFSIZE=22  
+SERIALBUFSIZE=24  
 PM2NAME=mirrtron-rfq-flow-01   
 NODEREDCONFIGSECRET=a-secret-key    
 
