@@ -1,8 +1,8 @@
 {
   "type": "rfq-flow",
-  "name": "01",
+  "name": "outlet",
   "arcPeriod": 60000,
-  "timeStamp": 1649392056119,
+  "timeStamp": 1649928539786,
   "interval": {
     "action": "setting",
     "type": "scalar",
@@ -26,7 +26,7 @@
   "watchdog": {
     "action": "reading",
     "type": "scalar",
-    "value": 12,
+    "value": 6929,
     "unit": "unit",
     "alarm": {
       "value": 0,
@@ -46,7 +46,7 @@
   "rate": {
     "action": "reading",
     "type": "scalar",
-    "value": 8125,
+    "value": 8109,
     "unit": "Hz",
     "alarm": {
       "value": 0,
@@ -63,10 +63,10 @@
       }
     }
   },
-  "flow1": {
+  "left": {
     "action": "reading",
     "type": "scalar",
-    "value": 1,
+    "value": 20.8,
     "unit": "unit",
     "alarm": {
       "value": 0,
@@ -83,10 +83,10 @@
       }
     }
   },
-  "flow2": {
+  "top": {
     "action": "reading",
     "type": "scalar",
-    "value": 1,
+    "value": 20.6,
     "unit": "unit",
     "alarm": {
       "value": 0,
@@ -103,10 +103,10 @@
       }
     }
   },
-  "flow3": {
+  "bottom": {
     "action": "reading",
     "type": "scalar",
-    "value": 1,
+    "value": 24.5,
     "unit": "unit",
     "alarm": {
       "value": 0,
@@ -123,10 +123,10 @@
       }
     }
   },
-  "flow4": {
+  "right": {
     "action": "reading",
     "type": "scalar",
-    "value": 1,
+    "value": 21.5,
     "unit": "unit",
     "alarm": {
       "value": 0,
@@ -143,70 +143,10 @@
       }
     }
   },
-  "flow5": {
+  "supply": {
     "action": "reading",
     "type": "scalar",
-    "value": 1,
-    "unit": "unit",
-    "alarm": {
-      "value": 0,
-      "limits": {
-        "lolo": -1,
-        "low": -1,
-        "high": 1024,
-        "hihi": 1024
-      },
-      "notify": {
-        "name": "",
-        "number": "",
-        "time": 0
-      }
-    }
-  },
-  "flow6": {
-    "action": "reading",
-    "type": "scalar",
-    "value": 1,
-    "unit": "unit",
-    "alarm": {
-      "value": 0,
-      "limits": {
-        "lolo": -1,
-        "low": -1,
-        "high": 1024,
-        "hihi": 1024
-      },
-      "notify": {
-        "name": "",
-        "number": "",
-        "time": 0
-      }
-    }
-  },
-  "flow7": {
-    "action": "reading",
-    "type": "scalar",
-    "value": 1,
-    "unit": "unit",
-    "alarm": {
-      "value": 0,
-      "limits": {
-        "lolo": -1,
-        "low": -1,
-        "high": 1024,
-        "hihi": 1024
-      },
-      "notify": {
-        "name": "",
-        "number": "",
-        "time": 0
-      }
-    }
-  },
-  "flow8": {
-    "action": "reading",
-    "type": "scalar",
-    "value": 1,
+    "value": 85.6,
     "unit": "unit",
     "alarm": {
       "value": 0,
