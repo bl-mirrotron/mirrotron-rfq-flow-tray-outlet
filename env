@@ -1,0 +1,9 @@
+MQTTSUBSCRIBE=mirrotron/rfq-flow/outlet/setting/#
+MQTTCLIENTID=mirrotron-rfq-flow-tray-outlet
+MQTTSERVERIP=xxx
+MQTTUSERNAME=yyy
+MQTTPASSWORD=zzz
+SERIALPORT=/dev/serial0
+SERIALBUFSIZE=24
+PM2NAME=mirrotron-rfq-flow-outlet
+NODEREDCONFIGSECRET=aaa

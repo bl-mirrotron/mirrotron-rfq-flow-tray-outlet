@@ -2,7 +2,7 @@
   "type": "rfq-flow",
   "name": "outlet",
   "arcPeriod": 60000,
-  "timeStamp": 1656406859830,
+  "timeStamp": 1659768475922,
   "interval": {
     "action": "setting",
     "type": "scalar",
@@ -26,7 +26,7 @@
   "watchdog": {
     "action": "reading",
     "type": "scalar",
-    "value": 27383,
+    "value": 13410,
     "unit": "unit",
     "alarm": {
       "value": 0,
